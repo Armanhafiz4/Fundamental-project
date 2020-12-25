@@ -3,9 +3,9 @@
 # GYM Workouts App
 
 ## Contents
-* [Brief:](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#brief) 
-  * Requirements
-  * My idea
+* [Brief](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#brief) 
+  * [Requirements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#requirements)
+  * [My idea]
 * Architecture
 * Project Tracking
 * Risk Assessment
