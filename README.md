@@ -3,9 +3,9 @@
 # GYM Workouts App
 
 ## Contents
-* Brief
- * Requirements 
- * My idea
+* Brief: 
+  * Requirements
+  * My idea
 * Architecture
 * Project Tracking
 * Risk Assessment
