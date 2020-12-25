@@ -3,7 +3,7 @@
 # GYM Workouts App
 
 ## Contents
-* Brief: 
+* [Brief:](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#brief) 
   * Requirements
   * My idea
 * Architecture
