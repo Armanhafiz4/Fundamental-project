@@ -23,12 +23,29 @@ I have created an application that has the functions of create, read, update and
 
 Aswell as operating and making a CRUD application there are also other requirements such as:
 * A Trello board for project tracking
-* A database consisting of at least 2 tables that model and use a relationship
+* A relational database consisting of at least 2 tables that have a relationship
 * A clear documentation of the design phase, application architecture and a risk assessment 
-* A python functional application that shows my design
-* Shown testing for my application which has automated tests for the app
+* A functioning CRUD application created in Python
+* Shown testing for my application which uses automated tests for the app
 * A front-end website that I must create using Flask
-* A code integrated  
+* A code integrated into GitHub
+* Google Cloud Platform
 
-My idea
+### My idea
+
+My idea is to create an app that allows users to create a gym workout planner where users can create gym workout planned days, add, update and delete exercises within these days. The application must allow users to carry out the following: 
+
+* Create: 
+  ** Workout day name 
+  ** Exercise names 
+  ** How many repetitions
+  ** Amount of weight used (kg)
+* Read: 
+  ** Workout days that have been created
+* Update: 
+  ** Workout days (exercises, repetitions, amount of weight used)
+* Delete: 
+  ** Exercises
+  ** Workout days
+
 
