@@ -36,16 +36,16 @@ Aswell as operating and making a CRUD application there are also other requireme
 My idea is to create an app that allows users to create a gym workout planner where users can create gym workout planned days, add, update and delete exercises within these days. The application must allow users to carry out the following: 
 
 * Create: 
-  ** Workout day name 
-  ** Exercise names 
-  ** How many repetitions
-  ** Amount of weight used (kg)
+  * Workout day name 
+  * Exercise names 
+  * How many repetitions
+  * Amount of weight used (kg)
 * Read: 
-  ** Workout days that have been created
+  * Workout days that have been created
 * Update: 
-  ** Workout days (exercises, repetitions, amount of weight used)
+  * Workout days (exercises, repetitions, amount of weight used)
 * Delete: 
-  ** Exercises
-  ** Workout days
+  * Exercises
+  * Workout days
 
 
