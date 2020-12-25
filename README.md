@@ -5,7 +5,7 @@
 ## Contents
 * [Brief](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#brief) 
   * [Requirements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#requirements)
-  * [My idea]
+  * [My idea](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#my-idea)
 * Architecture
 * Project Tracking
 * Risk Assessment
