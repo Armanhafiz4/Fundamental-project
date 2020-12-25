@@ -53,4 +53,4 @@ My idea is to create an app that allows users to create a gym workout planner wh
 Below is 2 entity relationship diagrams (ERD) which shows the structure of the database I am using. The first ERD is my original ERD however as my project progressed I chose certain things to not implement into my app, so therefore the second ERD is my final ERD for my app as it includes everything I implemented.
 
 first erd:
-![alt text]
+![alt text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/Untitled%20Diagram.drawio)
