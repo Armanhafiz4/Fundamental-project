@@ -5,9 +5,9 @@
 ## Contents
 * [Brief](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#brief) 
   * [Requirements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#requirements)
-  * [My idea](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#my-idea)
+  * [My Idea](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#my-idea)
 * [Architecture](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#architecture)
-* Project Tracking
+* [Project Tracking]()
 * Risk Assessment
 * Testing
 * Front-End Design
@@ -42,10 +42,11 @@ My idea is to create an app that allows users to create a gym workout planner wh
   * Amount of weight used (kg)
 * Read: 
   * Workout days that have been created
+  * Exercises that are under each workout day
 * Update: 
   * Workout days (exercises, repetitions, amount of weight used)
 * Delete: 
-  * Exercises
+  * Exercises under each workout day
   * Workout days
   
 ## Architecture 
@@ -59,3 +60,5 @@ My old ERD
 
 ![alt_text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/ERD%20new%20Diagram.png)
 My new ERD
+
+## Project tracking
