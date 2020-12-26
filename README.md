@@ -55,5 +55,5 @@ Below is 2 entity relationship diagrams (ERD) which shows the structure of the d
 ![alt text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/Original%20ERD%20Diagram.png) 
 My old ERD
 
-![alt_text](
+![alt_text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/ERD%20new%20Diagram.png)
 
