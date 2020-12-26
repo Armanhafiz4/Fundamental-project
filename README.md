@@ -7,7 +7,7 @@
   * [Requirements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#requirements)
   * [My Idea](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#my-idea)
 * [Architecture](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#architecture)
-* [Project Tracking]()
+* [Project Tracking](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#project-tracking)
 * Risk Assessment
 * Testing
 * Front-End Design
@@ -54,11 +54,17 @@ My idea is to create an app that allows users to create a gym workout planner wh
 Below is 2 entity relationship diagrams (ERD) which shows the structure of the database I am using. The first ERD is my original ERD however as my project progressed I chose certain things to not implement into my app, so therefore the second ERD is my final ERD for my app as it includes everything I implemented.
 
 ![alt text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/Original%20ERD%20Diagram.png) 
+
+
 My old ERD
 
 
 
 ![alt_text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/ERD%20new%20Diagram.png)
+
+
 My new ERD
+
+
 
 ## Project tracking
