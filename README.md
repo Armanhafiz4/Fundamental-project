@@ -11,7 +11,7 @@
 * [Architecture](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#architecture)
 * [Project Tracking](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#project-tracking)
 * [Risk Assessment](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#risk-assessment)
-* Testing
+* [Testing](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#testing)
 * Front-End Design
 * Known Issues
 * Future Improvements
