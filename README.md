@@ -14,7 +14,7 @@
 * [Testing](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#testing)
 * [Front-End Design](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#front-end-design)
 * [Known Issues](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#known-issues)
-* Future Improvements
+* [Future Improvements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#future-improvements)
 
 ## Brief
 
