@@ -1,10 +1,10 @@
 # Fundamental-project
 
 
-# GYM Workouts App
+## GYM Workouts App
 
 
-## Contents
+### Contents
 * [Brief](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#brief) 
   * [Requirements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#requirements)
   * [My Idea](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#my-idea)
@@ -16,12 +16,12 @@
 * [Known Issues](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#known-issues)
 * [Future Improvements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#future-improvements)
 
-## Brief
+### Brief
 
 The objective for this project is to create a CRUD application with using all core modules covered during my training so far at QA.
 I have created an application that has the functions of create, read, update and delete in order to operate a Gym Workouts App
 
-### Requirements
+#### Requirements
 
 Aswell as operating and making a CRUD application there are also other requirements such as:
 * A Trello board for project tracking
@@ -33,7 +33,7 @@ Aswell as operating and making a CRUD application there are also other requireme
 * A code integrated into GitHub
 * Google Cloud Platform
 
-### My Idea
+#### My Idea
 
 My idea is to create an app that allows users to create a gym workout planner where users can create gym workout planned days, add, update and delete exercises within these days. The application must allow users to carry out the following: 
 
@@ -51,7 +51,7 @@ My idea is to create an app that allows users to create a gym workout planner wh
   * Exercises under each workout day
   * Workout days
   
-## Architecture 
+### Architecture 
 
 Below is 2 entity relationship diagrams (ERD) which shows the structure of the database I am using. The first ERD is my original ERD however as my project progressed I chose certain things to not implement into my app, so therefore the second ERD is my final ERD for my app as it includes everything I implemented.
 
@@ -67,19 +67,19 @@ My old ERD is above where I had a many to many ERD
 My new ERD is above which is more simplified and is just a one to many ERD
 
 
-## Project Tracking
+### Project Tracking
 
 I tracked my progress using a trello board which is made [here](https://trello.com/b/ihNNyfj3/qa-fundamental-project) 
 
 
-## Risk Assessment
+### Risk Assessment
 
 My risk assessment table:
 
-## Testing
+### Testing
 
-## Front-End Design
+### Front-End Design
 
-## Known Issues
+### Known Issues
 
-## Future Improvements
+### Future Improvements
