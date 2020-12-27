@@ -68,4 +68,4 @@ My new ERD is above
 
 ## Project tracking
 
-I tracked my progress using a trello board which is made here
+I tracked my progress using a trello board which is made [here](https://trello.com/b/ihNNyfj3/qa-fundamental-project) 
