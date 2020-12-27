@@ -1,6 +1,8 @@
 # Fundamental-project
 
+
 # GYM Workouts App
+
 
 ## Contents
 * [Brief](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#brief) 
@@ -31,7 +33,7 @@ Aswell as operating and making a CRUD application there are also other requireme
 * A code integrated into GitHub
 * Google Cloud Platform
 
-### My idea
+### My Idea
 
 My idea is to create an app that allows users to create a gym workout planner where users can create gym workout planned days, add, update and delete exercises within these days. The application must allow users to carry out the following: 
 
@@ -56,16 +58,22 @@ Below is 2 entity relationship diagrams (ERD) which shows the structure of the d
 ![alt text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/Original%20ERD%20Diagram.png) 
 
 
-My old ERD is above
+My old ERD is above where I had a many to many ERD
 
 
 ![alt_text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/ERD%20new%20Diagram.png)
 
 
-My new ERD is above
+My new ERD is above which is more simplified and is just a one to many ERD
 
 
-
-## Project tracking
+## Project Tracking
 
 I tracked my progress using a trello board which is made [here](https://trello.com/b/ihNNyfj3/qa-fundamental-project) 
+
+
+## Risk Assessment
+
+My risk assessment table:
+
+
