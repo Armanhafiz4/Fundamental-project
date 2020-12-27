@@ -12,7 +12,7 @@
 * [Project Tracking](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#project-tracking)
 * [Risk Assessment](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#risk-assessment)
 * [Testing](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#testing)
-* Front-End Design
+* [Front-End Design](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#front-end-design)
 * Known Issues
 * Future Improvements
 
