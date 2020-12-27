@@ -10,7 +10,7 @@
   * [My Idea](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#my-idea)
 * [Architecture](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#architecture)
 * [Project Tracking](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#project-tracking)
-* Risk Assessment
+* [Risk Assessment](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#risk-assessment)
 * Testing
 * Front-End Design
 * Known Issues
@@ -76,4 +76,10 @@ I tracked my progress using a trello board which is made [here](https://trello.c
 
 My risk assessment table:
 
+## Testing
 
+## Front-End Design
+
+## Known Issues
+
+## Future Improvements
