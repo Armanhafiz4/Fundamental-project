@@ -1,10 +1,10 @@
 from application import db
 from datetime import datetime
 
-class workout(db.Model):
+class Workout(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     day_of_the_week = db.Column(db.String(9), nullable=False)
-    date_created = db.Column(db.Datetime, nullable=False, default=datetime.utcnow)
+    date_created = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     exercises = db.relationship("exercises", backref="workout")
 
 class exercises(db.Model):
