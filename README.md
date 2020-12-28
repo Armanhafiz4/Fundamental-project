@@ -42,9 +42,12 @@ My idea is to create an app that allows users to create a gym workout planner wh
   * Exercise names 
   * How many repetitions
   * Amount of weight used (kg)
+  * The date that the workout day was created
 * Read: 
   * Workout days that have been created
   * Exercises that are under each workout day
+  * Repetitions that are under each workout day
+  * The amount of weight used (kg) that are under each workout day
 * Update: 
   * Workout days (exercises, repetitions, amount of weight used)
 * Delete: 
