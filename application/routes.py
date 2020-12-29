@@ -1,50 +1,51 @@
 from application import app, db
-from application.models import Workout, exercises
+from application.models import Workout, Exercises
+from application.forms import ExerciseForm, WorkoutForm
+from flask import render_template, request, redirect, url_for
 
 @app.route("/")
 @app.route("/home")
 def home():
-    all_workout = Workout.query.all()
-    return str(all_workout)
+    all_workouts = Workout.query.all()
+    all_exercises = Exercises.query.all()           
+    return render_template("index.html", title="Home", all_workouts=all_workouts, all_exercises=all_exercises)
 
-@app.route("/create")
+@app.route("/create", methods = ["GET", "POST"])                       
 def create():
-    new_workout = Workout("new workout added")
-    db.session.add(new_workout)
-    db.session.commit()
-    return "new workout added"
+    form = ExerciseForm()
+    if request.method == "POST":
+        if form.validate_on_submit():
+            new_exercise = Exercise(exercise_title=form.exercise_title.data)
+            db.session.add(new_exercise)
+            db.session.commit()
+            return redirect(url_for("home"))
+    return render_template ("add.html", title="Create an exercise", form=form)
 
-@app.route("/exercise/<int:id>")
-def exercise(id):
-    workout = Workout.query.filter_by(id=id).first()
-    workout.exercise_added = True
-    db.session.commit()
-    return f"Exercise {id} is now added"
+@app.route("/createworkout", methods = ["GET", "POST"])
+def createworkout():
+    form = WorkoutForm()
+    if request.method == "POST":
+        if form.validate_on_submit():
+            new_workout = Workout(workout_title=form.workout_title.data) 
+            db.session.add(new_workout)
+            db.session.commit()
+            return redirect(url_for("home"))
+    return render_template ("add.html", title="Create a workout", form=form)
 
-@app.route("/repetitions/<int:id>")
-def repetitions(id):
-    workout = Workout.query.filter_by(id=id).first()
-    workout.repetitions_added = True
-    db.session.commit()
-    return f"Repetitions is now added to {id}"
-
-@app.route("/weight/<int:id>")
-def weight(id):
-    workout = Workout.query.filter_by(id=id).first()
-    workout.weight_added = True
-    db.session.commit()
-    return f"weight is now added to {id}"
-
-@app.route("/update/<new_exercise>")
-def update(new_exercise):
-    workout = Workout.query.order_by(workout.id.desc()).first()
-    workout.exercise = new_exercise
-    db.session.commit()
-    return f"Most recent workout was updated with the exercise: {new_exercise}"
-
-@app.route("/delete/<int:id>")
-def delete(id):
-    workout = Workout.query.filter_by(id=id).first()
-    db.session.delete(workout)
-    return f"workout {id} was deleted."
+@app.route("/update/<int:id>", methods = ["GET", "POST"])             
+def update(id):
+    form = ExerciseForm()
+    exercises = Exercises.query.filter_by(id=id).first()
+    if request.method == "POST":
+        exercise.title = form.title.data
+        db.session.commit()
+        return redirect(url_for("home"))
     
+    return render_template("update.html", form=form, title="Update Exercises")
+
+@app.route("/delete/<int:id>", methods = ["GET", "POST"])
+def delete(id):
+    book = Books.query.filter_by(id=id).first()
+    db.session.delete(task)
+    db.session.commit()
+    return redirect(url_for("home")) 

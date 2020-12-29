@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<h2>Workouts added</h2>
+{% for workout in all_workouts %}
+        {{ workout.title }}
+        <br>
+        {{ workout.date_created }}
+        <br> 
+        <form action="{{ url_for("update, id=exercise.id") }}"
+        <input type=submit value="Update">
+        </form>
+        <br>
+        <br> 
+    {% endif %}
+{% endfor %}
+
+<h2>Exercises added</h2>
+{% for exercises in all_exercises %}
+    {% if exercises.created == True %}
+        {{ exercises.title }}
+        <br>
+        {{ exercise.repetitions }} 
+        <br> 
+        <form action="{{ url_for("update, id=exercise.id") }}"
+        <input type=submit value="Update">
+        </form>
+        <br>
+        <br> 
+    {% endif %}
+{% endfor %} 
+
+{% endblock body %}
