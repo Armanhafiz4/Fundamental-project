@@ -8,6 +8,7 @@ class WorkoutForm(FlaskForm):
 
 class ExerciseForm(FlaskForm):
     exercise_title = StringField('Title of the Exercise', validators = [DataRequired()])
+    workout_title = StringField('Title of the Workout', validators = [DataRequired()])
     created = BooleanField('Do you want this exercise to be added in your workout')
     repetition = StringField('How many times would you like to do this exercise', validators = [DataRequired()])
     submit = SubmitField('Add Exercise') 

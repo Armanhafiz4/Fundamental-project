@@ -45,7 +45,8 @@ def update(id):
 
 @app.route("/delete/<int:id>", methods = ["GET", "POST"])
 def delete(id):
-    book = Books.query.filter_by(id=id).first()
-    db.session.delete(task)
+    form = WorkoutForm()
+    workouts = Workout.query.filter_by(id=id).first()
+    db.session.delete(workouts)
     db.session.commit()
     return redirect(url_for("home")) 

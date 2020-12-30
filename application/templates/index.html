@@ -1,18 +1,17 @@
 {% extends 'layout.html' %}
 {% block body %}
 
-<h2>Workouts added</h2>
+<h2>Workouts</h2>
 {% for workout in all_workouts %}
-        {{ workout.title }}
+        {{ workout.workout_title }}
         <br>
         {{ workout.date_created }}
         <br> 
-        <form action="{{ url_for("update, id=exercise.id") }}"
-        <input type=submit value="Update">
+        <form action="{{ url_for("createworkout") }}"
+        <input type=submit value="Createworkout">
         </form>
         <br>
         <br> 
-    {% endif %}
 {% endfor %}
 
 <h2>Exercises added</h2>
@@ -22,8 +21,8 @@
         <br>
         {{ exercise.repetitions }} 
         <br> 
-        <form action="{{ url_for("update, id=exercise.id") }}"
-        <input type=submit value="Update">
+        <form action="{{ url_for("create") }}"
+        <input type=submit value="create">
         </form>
         <br>
         <br> 

@@ -3,9 +3,10 @@
         <title>Workout Planner - {{ title }}</title>
     </head>
     <body>
-        <h1>Workouts - {{ title }}</h1>
+        <h1>Workout Planner - {{ title }}</h1>
         <a href="{{ url_for('home') }}">Home</a>
-        <a href="{{ url_for('create') }}">Create Workout</a>
+        <a href="{{ url_for('createworkout') }}">Create A Workout</a>
+        <a href="{{ url_for('create') }}">Create An Exercise</a>
         {% block body %}
         {% endblock body %}
     </body>
