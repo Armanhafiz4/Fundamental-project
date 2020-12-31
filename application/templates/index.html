@@ -6,27 +6,33 @@
         {{ workout.workout_title }}
         <br>
         {{ workout.date_created }}
-        <br> 
-        <form action="{{ url_for("createworkout") }}"
-        <input type=submit value="Createworkout">
+        <br>
+        <form action="{{ url_for('createworkout') }}">
+            <input type=submit value="Workouts">
+        </form>
+        <form action="{{ url_for('update', id=workout.id) }}">
+                <input type=submit value="Update">
+        </form>
+        <form action="{{ url_for('delete', id=workout.id) }}">
+            <input type=submit value="Delete">
         </form>
         <br>
-        <br> 
+        <br>
 {% endfor %}
 
-<h2>Exercises added</h2>
-{% for exercises in all_exercises %}
-    {% if exercises.created == True %}
-        {{ exercises.title }}
-        <br>
-        {{ exercise.repetitions }} 
+<h2>Exercises</h2>
+{% for exercise in all_exercises %}
+        {{ exercise.exercise_title }}
         <br> 
-        <form action="{{ url_for("create") }}"
-        <input type=submit value="create">
+        <form action="{{ url_for('update', id=exericise.id) }}">
+            <input type=submit value="Update">
+        </form>
+        <form action="{{ url_for('create') }}">
+            <input type=submit value="Exercises>
         </form>
         <br>
-        <br> 
-    {% endif %}
-{% endfor %} 
+        <br>
+{% endfor %}
 
 {% endblock body %}
+

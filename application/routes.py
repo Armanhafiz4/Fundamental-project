@@ -15,11 +15,11 @@ def create():
     form = ExerciseForm()
     if request.method == "POST":
         if form.validate_on_submit():
-            new_exercise = Exercise(exercise_title=form.exercise_title.data)
+            new_exercise = Exercises(exercise_title=form.exercise_title.data)
             db.session.add(new_exercise)
             db.session.commit()
             return redirect(url_for("home"))
-    return render_template ("add.html", title="Create an exercise", form=form)
+    return render_template ("add_exercise.html", title="Create an exercise", form=form)
 
 @app.route("/createworkout", methods = ["GET", "POST"])
 def createworkout():
@@ -34,10 +34,10 @@ def createworkout():
 
 @app.route("/update/<int:id>", methods = ["GET", "POST"])             
 def update(id):
-    form = ExerciseForm()
-    exercises = Exercises.query.filter_by(id=id).first()
+    form = WorkoutForm()
+    workouts = Workouts.query.filter_by(id=id).first()
     if request.method == "POST":
-        exercise.title = form.title.data
+        workout.workout_title = form.workout_title.data
         db.session.commit()
         return redirect(url_for("home"))
     
