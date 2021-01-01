@@ -1,6 +1,6 @@
 from application import app, db
 from application.models import Workout, Exercises
-from application.forms import ExerciseForm, WorkoutForm
+from application.forms import WorkoutForm
 from flask import render_template, request, redirect, url_for
 
 @app.route("/")
@@ -10,23 +10,12 @@ def home():
     all_exercises = Exercises.query.all()           
     return render_template("index.html", title="Home", all_workouts=all_workouts, all_exercises=all_exercises)
 
-@app.route("/create", methods = ["GET", "POST"])                       
-def create():
-    form = ExerciseForm()
-    if request.method == "POST":
-        if form.validate_on_submit():
-            new_exercise = Exercises(exercise_title=form.exercise_title.data)
-            db.session.add(new_exercise)
-            db.session.commit()
-            return redirect(url_for("home"))
-    return render_template ("add_exercise.html", title="Create an exercise", form=form)
-
 @app.route("/createworkout", methods = ["GET", "POST"])
 def createworkout():
     form = WorkoutForm()
     if request.method == "POST":
         if form.validate_on_submit():
-            new_workout = Workout(workout_title=form.workout_title.data) 
+            new_workout = Workout(workout_title=form.workout_title.data)  
             db.session.add(new_workout)
             db.session.commit()
             return redirect(url_for("home"))
@@ -35,13 +24,13 @@ def createworkout():
 @app.route("/update/<int:id>", methods = ["GET", "POST"])             
 def update(id):
     form = WorkoutForm()
-    workouts = Workouts.query.filter_by(id=id).first()
+    Workout = Workouts.query.filter_by(id=id).first()
     if request.method == "POST":
         workout.workout_title = form.workout_title.data
         db.session.commit()
         return redirect(url_for("home"))
     
-    return render_template("update.html", form=form, title="Update Exercises")
+    return render_template("update.html", title="Update Workout",form=form)
 
 @app.route("/delete/<int:id>", methods = ["GET", "POST"])
 def delete(id):

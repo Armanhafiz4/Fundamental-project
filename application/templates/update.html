@@ -1,9 +1,11 @@
 {% extends 'layout.html' %}
 {% block body %}
 <br><br>
+Original Workout: {{ workout.title }} 
+<br><br>
 <form action='' method='POST'>
     {{ form.hidden_tag() }}
-    {{ form.exercise_title.label }} {{ form.exercise_title }} <br>
+    {{ form.title.label }}    {{ form.title}} <br>
     {{ form.submit }}
 </form>
 

@@ -20,19 +20,5 @@
         <br>
 {% endfor %}
 
-<h2>Exercises</h2>
-{% for exercise in all_exercises %}
-        {{ exercise.exercise_title }}
-        <br> 
-        <form action="{{ url_for('update', id=exericise.id) }}">
-            <input type=submit value="Update">
-        </form>
-        <form action="{{ url_for('create') }}">
-            <input type=submit value="Exercises>
-        </form>
-        <br>
-        <br>
-{% endfor %}
-
 {% endblock body %}
 
