@@ -15,7 +15,7 @@ def createworkout():
     form = WorkoutForm()
     if request.method == "POST":
         if form.validate_on_submit():
-            new_workout = Workout(workout_title=form.workout_title.data)  
+            new_workout = Workout(workout_title=form.workout_title.data) 
             db.session.add(new_workout)
             db.session.commit()
             return redirect(url_for("home"))
@@ -24,9 +24,8 @@ def createworkout():
 @app.route("/update/<int:id>", methods = ["GET", "POST"])             
 def update(id):
     form = WorkoutForm()
-    Workout = Workouts.query.filter_by(id=id).first()
     if request.method == "POST":
-        workout.workout_title = form.workout_title.data
+        workout_title = form.workout_title.data
         db.session.commit()
         return redirect(url_for("home"))
     
