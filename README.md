@@ -79,7 +79,6 @@ My risk assessment table:
 
 ### Testing
 
-![image](https://user-images.githubusercontent.com/74771197/103463616-91317b80-4d25-11eb-9644-f75f7698ba61.png)
 
 ### Front-End Design
 
