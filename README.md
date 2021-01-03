@@ -80,12 +80,10 @@ My risk assessment table:
 ### Testing
 
 ![image](https://user-images.githubusercontent.com/74771197/103464355-f045bf00-4d2a-11eb-938e-396fef918d83.png)
-
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103464362-14090500-4d2b-11eb-8a40-d865d1268046.png)
-
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103464375-208d5d80-4d2b-11eb-936b-b0d471b1892a.png)
-
-![image](https://user-images.githubusercontent.com/74771197/103464381-2d11b600-4d2b-11eb-8dc7-1e8fa4e14a0f.png)
 <br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103489423-5eae7e00-4e0c-11eb-81bb-4935c4e83e44.png)
 
@@ -95,15 +93,15 @@ My risk assessment table:
 ### Front-End Design
 
 ![image](https://user-images.githubusercontent.com/74771197/103464266-40705180-4d2a-11eb-90fb-1c540a885e5b.png) 
-
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103464288-6c8bd280-4d2a-11eb-9935-2081387385cb.png)
-
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103464298-7dd4df00-4d2a-11eb-89ef-8eb4dc7c2b27.png)
-
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103464309-8a593780-4d2a-11eb-87b6-cc17d3c0917e.png)
-
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103464331-ad83e700-4d2a-11eb-95bb-441c319f760a.png)
-
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103464337-bb396c80-4d2a-11eb-8402-6b71b357ac49.png)
 
 
