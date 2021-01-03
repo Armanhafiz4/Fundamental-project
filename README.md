@@ -71,6 +71,8 @@ My new ERD is above which is more simplified and is just a one to many ERD
 ### Project Tracking
 
 I tracked my progress using a trello board which is made [here](https://trello.com/b/ihNNyfj3/qa-fundamental-project). This trello board was made using user stories and descriptions and coloured tabs to designate the epics and documentations etc 
+<br><br>
+![image](https://user-images.githubusercontent.com/74771197/103489502-db415c80-4e0c-11eb-8e31-b97b1b835a4e.png)
 
 
 ### Risk Assessment
