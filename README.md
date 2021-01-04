@@ -95,8 +95,7 @@ ALSO TALK ABOUT THE 84% AND MENTION HOW YOU USED MISSING TERMS
 <br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103464375-208d5d80-4d2b-11eb-936b-b0d471b1892a.png)
 <br><br>
-![image](https://user-images.githubusercontent.com/74771197/103489423-5eae7e00-4e0c-11eb-81bb-4935c4e83e44.png)
-![image](https://user-images.githubusercontent.com/74771197/103591502-4449d280-4ee8-11eb-90fb-f4e82ffc3df5.png)
+![image](https://user-images.githubusercontent.com/74771197/103591682-bb7f6680-4ee8-11eb-9940-914c70b4d779.png)
 
 
 ### Build
