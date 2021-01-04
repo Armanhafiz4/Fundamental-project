@@ -83,7 +83,7 @@ My risk assessment table:
 <br>
 ![image](https://user-images.githubusercontent.com/74771197/103492775-22d3e280-4e25-11eb-97af-c14bb9c07876.png)
 <br>
-My first risk assessment table 
+My risk assessments include the description of the risk, the assessment of the risk, the probability, the level of impact, who has the responsibility of the risk, the current mitigation, the proposed mitigation and the response. My first risk assessment table includes the risks that I identified at the start of the project however as my project progressed I identified more risks which I placed in a second risk assessment. 
 
 ### Testing
 TALK ABOUT UNIT TESTING AND WHAT ITS USED FOR AND TALK ABOUT EACH SCREENSHOT
