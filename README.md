@@ -21,16 +21,12 @@
 * [Authors](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#authors)
 
 ### Brief 
-GIVE MORE EXPLANATION ON BRIEF
-
-The objective for this project is to create a CRUD application with using all core modules covered during my training so far at QA.
-I have created an application that has the functions of create, read, update and delete in order to operate a Gym Workouts App
+The objective for this Fundamental project is to create a CRUD application with using all core modules covered during my training so far at QA. I have created an application that has the functions of create, read, update and delete in order to operate a Gym Workouts App for users to use as their own workout planner.
 
 #### Requirements
-CLEAR UP THE REQUIREMENTS
-
 Aswell as operating and making a CRUD application there are also other requirements such as:
-* A Trello board for project tracking
+
+* A Kanban board with full expansion on user stories and project tracking. For this I have used a   Trello board
 * A relational database consisting of at least 2 tables that have a relationship
 * A clear documentation of the design phase, application architecture and a risk assessment 
 * A functioning CRUD application created in Python
