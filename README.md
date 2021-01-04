@@ -26,21 +26,20 @@ The objective for this Fundamental project is to create a CRUD application with 
 #### Requirements
 Aswell as operating and making a CRUD application there are also other requirements such as:
 
-* A Kanban board with full expansion on user stories and project tracking. For this I have used a   Trello board
+* A Kanban board with full expansion on user stories and project tracking. For this I have used a   Trello board.
 * A relational database consisting of at least 2 tables that have a relationship
 * A clear documentation of the design phase, application architecture and a risk assessment 
 * A functioning CRUD application created in Python
-* Shown testing for my application which uses automated tests for the app
-* A front-end website that I must create using Flask
-* A code integrated into GitHub
-* Google Cloud Platform
+* Shown testing for my application which uses automated tests for the application I created
+* A functioning front-end website that I must create using Flask
+* A code integrated into a Version Control System which would be built through a CI server and deployed to a cloud-based virtual machine
 
 #### My Idea
 
-My idea is to create an app that allows users to create a gym workout planner where users can create gym workout planned days, add, update and delete exercises within these days. The application must allow users to carry out the following: 
+My idea is to create an app that allows users to have a gym workout planner where users can create gym workouts, add exercises, view, update and delete their workouts within these days. The application must allow users to carry out the following: 
 
 * Create: 
-  * Workout name 
+  * Workout title 
   * Exercise names 
   * How many repetitions
   * The date that the workout day was created
@@ -50,27 +49,22 @@ My idea is to create an app that allows users to create a gym workout planner wh
   * Repetitions that are under each workout day
   * The date and time the workout was created
 * Update: 
-  * Workout days with exercises and repetitions
+  * Workouts
 * Delete: 
   * Workouts
   
 ### Architecture 
-TALK ABOUT YOUR ERD'S AND TALK ABOUT HOW AS TIME PROGRESSED YOUR IDEA CHANGED AND THEREFORE SO DID THE ERDS AND TALK ABOUT ONE TO MANY OR MANY TO MANY ETC
-CI PIPELINE
 
 #### ERD
-Below is 2 entity relationship diagrams (ERD) which shows the structure of the database I am using. The first ERD is my original ERD however as my project progressed I chose certain things to not implement into my app, so therefore the second ERD is my final ERD for my app as it includes everything I implemented.
-
+Below is 2 entity relationship diagrams (ERD) which shows the structure of the database I am using. The first ERD is my original ERD however as my project progressed I chose certain things to not implement into my app, so therefore the second ERD is my final ERD for my app as it includes everything I implemented. 
+<br>
 ![alt text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/Original%20ERD%20Diagram.png) 
-
-
-My old ERD is above where I had a many to many ERD
-
-
+<br>
+My original ERD which is above shows a many to many relationship. This idea included me creating an app where users create an account with a user id and password. Then they create their workout and then their exercises which would be attached to their exercises. The application would also allow users to view their friends workouts and exercises planned which allows users to share their workouts too. 
+<br>
 ![alt_text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/ERD%20new%20Diagram.png)
-
-
-My new ERD is above which is more simplified and is just a one to many ERD
+<br>
+However as my project progressed I stuck to this ERD and idea where there was no create a username function etc and no sharing workouts with friends. Now a one to many relationship is shown in this ERD and I chose this idea as I saw my criteria that I needed to fulfill for this project and as this ERD allowed me to have a relational database between 2 tables and be able to create an application with CRUD functionality, it was a lot more simpler and it gave me more time to work on my tests. My new ERD shows my idea on how users create a workout and add exercises and repetitions to the workout etc.
 
 #### CI Pipeline
 
