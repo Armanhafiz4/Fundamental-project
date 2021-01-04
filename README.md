@@ -146,5 +146,4 @@ Add FUNCTION
 ### Acknowledgements
 
 ### Authors
-<br><br>
 Arman Hafiz
