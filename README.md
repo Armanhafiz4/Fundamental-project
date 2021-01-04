@@ -80,6 +80,10 @@ I tracked my progress using a trello board which is made [here](https://trello.c
 My risk assessment table:
 
 ![image](https://user-images.githubusercontent.com/74771197/103491155-3ed18700-4e19-11eb-8cbd-e694ebf70e1d.png)
+<br><br>
+<br><br>
+<br><br>
+
 
 ### Testing
 
