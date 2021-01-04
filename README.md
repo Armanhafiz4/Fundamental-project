@@ -60,16 +60,15 @@ Below is 2 entity relationship diagrams (ERD) which shows the structure of the d
 <br>
 ![alt text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/Original%20ERD%20Diagram.png) 
 <br>
-My original ERD which is above shows a many to many relationship. This idea included me creating an app where users create an account with a user id and password. Then they create their workout and then their exercises which would be attached to their exercises. The application would also allow users to view their friends workouts and exercises planned which allows users to share their workouts too. 
+My original ERD which is above shows a many to many relationship. This idea included me creating an app where users create an account with a user id and password. Then they create their workout and then their exercises which would be attached to their workouts. The application would also allow users to view their friends workouts and exercises planned, this idea also allows users to share their workouts too. 
 <br>
 ![alt_text](https://github.com/Armanhafiz4/Fundamental-project/blob/main/ERD%20new%20Diagram.png)
 <br>
-However as my project progressed I stuck to this ERD and idea where there was no create a username function etc and no sharing workouts with friends. Now a one to many relationship is shown in this ERD and I chose this idea as I saw my criteria that I needed to fulfill for this project and as this ERD allowed me to have a relational database between 2 tables and be able to create an application with CRUD functionality, it was a lot more simpler and it gave me more time to work on my tests. My new ERD shows my idea on how users create a workout and add exercises and repetitions to the workout etc.
+However as my project progressed I stuck to this ERD and idea where there was no create a username function etc and no sharing workouts with friends. Now a one to many relationship is shown in this ERD and I chose this idea as I saw my criteria that I needed to fulfill for this project and as this ERD allowed me to have a relational database between 2 tables and be able to create an application with CRUD functionality. My old ERD was quite complex so I decided to trim my idea and ERD to ensure that the MVP CRUD functionality was met. Any trimmed fields could be re-introduced for a future improvement of my application. My new ERD shows my idea on how users create a workout and add exercises and repetitions to the workout etc.
 
 #### CI Pipeline
 
 ### Project Tracking
-TALK ABOUT USER STORIES AND MENTION THEM
 
 I tracked my progress using a trello board which is made [here](https://trello.com/b/ihNNyfj3/qa-fundamental-project). This trello board was made using user stories and descriptions and coloured tabs to designate the epics and documentations etc 
 <br><br>
