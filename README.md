@@ -18,7 +18,7 @@
 * [Known Issues](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#known-issues)
 * [Future Improvements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#future-improvements)
 * [Acknowledgements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#acknowledgements)
-* [Author](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#author)
+* [Authors](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#authors)
 
 ### Brief 
 GIVE MORE EXPLANATION ON BRIEF
