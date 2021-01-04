@@ -16,12 +16,14 @@
 * [Known Issues](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#known-issues)
 * [Future Improvements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#future-improvements)
 
-### Brief
+### Brief 
+GIVE MORE EXPLANATION ON BRIEF
 
 The objective for this project is to create a CRUD application with using all core modules covered during my training so far at QA.
 I have created an application that has the functions of create, read, update and delete in order to operate a Gym Workouts App
 
 #### Requirements
+CLEAR UP THE REQUIREMENTS
 
 Aswell as operating and making a CRUD application there are also other requirements such as:
 * A Trello board for project tracking
@@ -53,6 +55,7 @@ My idea is to create an app that allows users to create a gym workout planner wh
   * Workouts
   
 ### Architecture 
+TALK ABOUT YOUR ERD'S AND TALK ABOUT HOW AS TIME PROGRESSED YOUR IDEA CHANGED AND THEREFORE SO DID THE ERDS AND TALK ABOUT ONE TO MANY OR MANY TO MANY ETC
 
 Below is 2 entity relationship diagrams (ERD) which shows the structure of the database I am using. The first ERD is my original ERD however as my project progressed I chose certain things to not implement into my app, so therefore the second ERD is my final ERD for my app as it includes everything I implemented.
 
