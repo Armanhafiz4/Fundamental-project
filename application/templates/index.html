@@ -11,6 +11,10 @@
         <br>
         {{ workout.date_created }}
         <br><br>
+        <form action="{{ url_for('create_exercise', id=workout.id) }}">
+                <input type=submit value="Add Exercise">
+        </form>
+        <br>
         <form action="{{ url_for('update', id=workout.id) }}">
                 <input type=submit value="Update">
         </form>
