@@ -70,21 +70,20 @@ However as my project progressed I stuck to this ERD and idea where there was no
 
 ### Project Tracking
 
-I tracked my progress using a trello board which is made [here](https://trello.com/b/ihNNyfj3/qa-fundamental-project). This trello board was made using user stories and descriptions and coloured tabs to designate the epics and documentations etc 
-<br><br>
+I tracked my progress using a trello board which is made [here](https://trello.com/b/ihNNyfj3/qa-fundamental-project). This trello board I made includes project requirements, a product backlog, detailed user stories, tasks on my current to do list from the date of making my trello board, tasks in progress from the date of making my trello board and completed tasks from the date of making my trello board.
+<br>
 ![image](https://user-images.githubusercontent.com/74771197/103489502-db415c80-4e0c-11eb-8e31-b97b1b835a4e.png)
 
-
 ### Risk Assessment
-TALK ABOUT HOW AS YOU PROGRESSED THROUGH THE PROJECT SO DID THE RISKS
+
 
 My risk assessment table:
 
 ![image](https://user-images.githubusercontent.com/74771197/103491155-3ed18700-4e19-11eb-8cbd-e694ebf70e1d.png)
-
-
+<br>
 ![image](https://user-images.githubusercontent.com/74771197/103492775-22d3e280-4e25-11eb-97af-c14bb9c07876.png)
-
+<br>
+My first risk assessment table 
 
 ### Testing
 TALK ABOUT UNIT TESTING AND WHAT ITS USED FOR AND TALK ABOUT EACH SCREENSHOT
