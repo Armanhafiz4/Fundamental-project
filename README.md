@@ -82,9 +82,7 @@ My risk assessment table:
 ![image](https://user-images.githubusercontent.com/74771197/103491155-3ed18700-4e19-11eb-8cbd-e694ebf70e1d.png)
 
 
-
-
-![image](https://user-images.githubusercontent.com/74771197/103492755-eacc9f80-4e24-11eb-868c-49a49f83e790.png)
+![image](https://user-images.githubusercontent.com/74771197/103492775-22d3e280-4e25-11eb-97af-c14bb9c07876.png)
 
 
 ### Testing
