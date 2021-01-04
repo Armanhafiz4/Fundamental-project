@@ -9,16 +9,16 @@
   * [Requirements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#requirements)
   * [My Idea](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#my-idea)
 * [Architecture](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#architecture)
-  * [ERD]
-  * [CI Pipeline]
+  * [ERD](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#erd)
+  * [CI Pipeline](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#ci-pipeline)
 * [Project Tracking](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#project-tracking)
 * [Risk Assessment](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#risk-assessment)
 * [Testing](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#testing)
 * [Front-End Design](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#front-end-design)
 * [Known Issues](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#known-issues)
 * [Future Improvements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#future-improvements)
-* [Acknowledgements]
-* [Author]
+* [Acknowledgements](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#acknowledgements)
+* [Author](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#author)
 
 ### Brief 
 GIVE MORE EXPLANATION ON BRIEF
