@@ -133,6 +133,7 @@ Future improvements I would like to implement into my project would be:
 * Another form of testing for example selenium integration testing. This would be done using chromedrivers and it would give another way in testing the system. The more tests the better as I would be more confident that I was able to make a functioning application. 
 * I would like to get 100% coverage in my unit testing, this should be attainable due to the missing terms command as I can see which lines are not being covered in my routes page. 
 * I would fix my add function so it is a completely working application where users can add their exercises to their workouts.
+* I would also want to add a CI pipeline diagram if applicable to the project
 
 ### Acknowledgements
 Harry Volker for providing the base of the CRUD project and guiding us throughout the project. Nathan Forester for providing guidance throughout the project specifically with Jenkins. Jay Grindrod guiding us throughout the project specifically with database models and logistics. Sam Birchall for guiding us throughout the project.
