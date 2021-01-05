@@ -86,13 +86,16 @@ My risk assessment table:
 My risk assessments include the description of the risk, the assessment of the risk, the probability, the level of impact, who has the responsibility of the risk, the current mitigation, the proposed mitigation and the response. My first risk assessment table includes the risks that I identified at the start of the project however as my project progressed I identified more risks which I placed in a second risk assessment. 
 
 ### Testing
-TALK ABOUT UNIT TESTING AND WHAT ITS USED FOR AND TALK ABOUT EACH SCREENSHOT
-ALSO TALK ABOUT THE 84% AND MENTION HOW YOU USED MISSING TERMS
+
+The following screenshots shows my unit-testing and how I achieved 84% total coverage in my unit tests. 
 
 ![image](https://user-images.githubusercontent.com/74771197/103464355-f045bf00-4d2a-11eb-938e-396fef918d83.png)
 <br><br>
+To start my unit tests the relevant imports must be made which are the unittest module from Python, flask and flask_testing that allows us to import url_for and TestCase. TestCase is the basis needed to run all my unit tests which is used after setting up TestBase to use TestCase. Also app and the database is imported along with my models which are to be tested (Workout, Exercises). After all the required imports are imported, the TestBase is set up and the first function that is run allocates properties to the database for the temporary database to use. SQLite was used so the main database wasn't affected. After this SetUp and tearDown functions are allocated with the self argument passed through these. The SetUp and tearDown functions create and also populate the database and also remove the database. These are run seperately for each test and this makes sure that each test would be working with the same set of data.
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103464362-14090500-4d2b-11eb-8a40-d865d1268046.png)
 <br><br>
+After the set up is completed, now we want to test flask so we can see if the routes are working and sending back the correct status codes. The status code 200 means a successful get request. These tests are to see if when a user navigates to the url_for ('name of the page') that they are sent there and that the app recognises this. The delete get requests have to allow redirects as the delete function we have contains a redirect to the home page of my application which allows the user to delete an endless amount of workouts on the homepage without the page changing or refreshing. 
 ![image](https://user-images.githubusercontent.com/74771197/103464375-208d5d80-4d2b-11eb-936b-b0d471b1892a.png)
 <br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103591682-bb7f6680-4ee8-11eb-9940-914c70b4d779.png)
