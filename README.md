@@ -106,12 +106,11 @@ The createworkout functionality of my app was tested by my test acts like a user
 As this screenshot shows, the unit tests have tested majority of my application with 100% of lines within init, forms and models being tested and 71% being tested within the routes. This gave an overall of 84% being tested and I used the missing terms command to see which lines from my routes that are missing which would allow me to see what needs to be tested in order to achieve 100% of lines being tested in my unit tests in the future. 
 
 ### Build
-JENKINS
+
+The CI pipeline for this project revolved around Jenkins and Git. Below are screenshots provided on my jenkins console output and after I automated a pytest as it shows which tests I passed and failed. Jenkins produces console outputs that tells the developer how many tests the code passes and also which tests that the code failed. Again it shows that 84% of my application was tested and we use Jenkins as a way to automate our tests by using builds. The first screenshot provided is my Jenkins script in the command section when executing my shell and the second screenshot is the test coverage shown in my console output. 
 ![image](https://user-images.githubusercontent.com/74771197/103557342-f367b900-4eaa-11eb-83b0-125b872b7789.png)
-
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103574785-73e8e280-4ec8-11eb-9cc9-5fe6e8bcde95.png)
-
-
 
 
 ### Front-End Design
