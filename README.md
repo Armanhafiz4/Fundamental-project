@@ -111,8 +111,9 @@ The CI pipeline for this project revolved around Jenkins and Git. Below are scre
 
 
 ### Front-End Design
-
-
+<br><br>
+![image](https://user-images.githubusercontent.com/74771197/103638221-856fd000-4f44-11eb-92e8-66764e055160.png)
+<br><br>
 
 ### Known Issues
 The main issue that my application has is that the add function is still faulty. There is a button there for the user to add their chosen exercise however it doesnt redirect itself to the home page in order for the exercise to be shown under the users chosen workout. However my application has its CRUD functionality and working tests.
