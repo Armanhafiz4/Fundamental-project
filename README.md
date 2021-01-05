@@ -104,7 +104,8 @@ As this screenshot shows, the unit tests have tested majority of my application 
 
 ### Build
 
-The CI pipeline for this project revolved around Jenkins and Git. Below are screenshots provided on my jenkins console output and after I automated a pytest as it shows which tests I passed and failed. Jenkins produces console outputs that tells the developer how many tests the code passes and also which tests that the code failed. Again it shows that 84% of my application was tested and we use Jenkins as a way to automate our tests by using builds. The first screenshot provided is my Jenkins script in the command section when executing my shell and the second screenshot is the test coverage shown in my console output. 
+The CI pipeline for this project revolved around Jenkins and Git. Below are screenshots provided on my jenkins console output and after I automated a pytest as it shows which tests I passed and failed. Jenkins produces console outputs that tells the developer how many tests the code passes and also which tests that the code failed. Again it shows that 84% of my application was tested and we use Jenkins as a way to automate our tests by using builds. The first screenshot provided is my Jenkins script in the command section when executing my shell and the second screenshot is the test coverage shown in my console output.
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103557342-f367b900-4eaa-11eb-83b0-125b872b7789.png)
 <br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103637102-df6f9600-4f42-11eb-936a-326d296d8b89.png)
@@ -116,11 +117,13 @@ The CI pipeline for this project revolved around Jenkins and Git. Below are scre
 <br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103638403-c667e480-4f44-11eb-9832-50624566d66b.png)
 <br><br>
+![image](https://user-images.githubusercontent.com/74771197/103638845-61f95500-4f45-11eb-97dd-9cc3113df73a.png)
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103638541-f57e5600-4f44-11eb-9afe-4e4fe2f25664.png)
 <br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103638671-22326d80-4f45-11eb-913e-d49e416e06c0.png)
 <br><br>
-So in these screenshots above, I show my home page and I show a screenshot of the page that each button directs to when adding a workout
+So in these screenshots above, I show my home page and I show a screenshot of the page that each button directs to after creating a workout. This whole CRUD application was creating by using python language and flask with importing many flask related modules that can be viewed in my application folder.
 
 ### Known Issues
 The main issue that my application has is that the add function is still faulty. There is a button there for the user to add their chosen exercise however it doesnt redirect itself to the home page in order for the exercise to be shown under the users chosen workout. However my application has its CRUD functionality and working tests.
