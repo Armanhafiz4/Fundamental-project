@@ -10,7 +10,6 @@
   * [My Idea](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#my-idea)
 * [Architecture](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#architecture)
   * [ERD](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#erd)
-  * [CI Pipeline](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#ci-pipeline)
 * [Project Tracking](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#project-tracking)
 * [Risk Assessment](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#risk-assessment)
 * [Testing](https://github.com/Armanhafiz4/Fundamental-project/blob/main/README.md#testing)
@@ -66,8 +65,6 @@ My original ERD which is above shows a many to many relationship. This idea incl
 <br>
 However as my project progressed I stuck to this ERD and idea where there was no create a username function etc and no sharing workouts with friends. Now a one to many relationship is shown in this ERD and I chose this idea as I saw my criteria that I needed to fulfill for this project and as this ERD allowed me to have a relational database between 2 tables and be able to create an application with CRUD functionality. My old ERD was quite complex so I decided to trim my idea and ERD to ensure that the MVP CRUD functionality was met. Any trimmed fields could be re-introduced for a future improvement of my application. My new ERD shows my idea on how users create a workout and add exercises and repetitions to the workout etc.
 
-#### CI Pipeline
-
 ### Project Tracking
 
 I tracked my progress using a trello board which is made [here](https://trello.com/b/ihNNyfj3/qa-fundamental-project). This trello board I made includes project requirements, a product backlog, detailed user stories, tasks on my current to do list from the date of making my trello board, tasks in progress from the date of making my trello board and completed tasks from the date of making my trello board.
@@ -110,34 +107,21 @@ As this screenshot shows, the unit tests have tested majority of my application 
 The CI pipeline for this project revolved around Jenkins and Git. Below are screenshots provided on my jenkins console output and after I automated a pytest as it shows which tests I passed and failed. Jenkins produces console outputs that tells the developer how many tests the code passes and also which tests that the code failed. Again it shows that 84% of my application was tested and we use Jenkins as a way to automate our tests by using builds. The first screenshot provided is my Jenkins script in the command section when executing my shell and the second screenshot is the test coverage shown in my console output. 
 ![image](https://user-images.githubusercontent.com/74771197/103557342-f367b900-4eaa-11eb-83b0-125b872b7789.png)
 <br><br>
-![image](https://user-images.githubusercontent.com/74771197/103574785-73e8e280-4ec8-11eb-9cc9-5fe6e8bcde95.png)
+![image](https://user-images.githubusercontent.com/74771197/103637102-df6f9600-4f42-11eb-936a-326d296d8b89.png)
 
 
 ### Front-End Design
-EXPLAIN EACH STEP AND HOW YOU USED FLASK WITH ROUTES AND MODELS ETC ETC. TALK ABOUT CRUD AND HOW UPDATING COULD HAVE GONE BETTER
 
-![image](https://user-images.githubusercontent.com/74771197/103464266-40705180-4d2a-11eb-90fb-1c540a885e5b.png) 
-<br><br>
-![image](https://user-images.githubusercontent.com/74771197/103464288-6c8bd280-4d2a-11eb-9935-2081387385cb.png)
-<br><br>
-![image](https://user-images.githubusercontent.com/74771197/103464298-7dd4df00-4d2a-11eb-89ef-8eb4dc7c2b27.png)
-<br><br>
-![image](https://user-images.githubusercontent.com/74771197/103464309-8a593780-4d2a-11eb-87b6-cc17d3c0917e.png)
-<br><br>
-![image](https://user-images.githubusercontent.com/74771197/103464331-ad83e700-4d2a-11eb-95bb-441c319f760a.png)
-<br><br>
-![image](https://user-images.githubusercontent.com/74771197/103464337-bb396c80-4d2a-11eb-8402-6b71b357ac49.png)
 
 
 ### Known Issues
-TALK ABOUT UPDATE FUNCTION AND READ FUNCTION. Add function was faulty
+The main issue that my application has is that the add function is still faulty. There is a button there for the user to add their chosen exercise however it doesnt redirect itself to the home page in order for the exercise to be shown under the users chosen workout. However my application has its CRUD functionality and working tests.
 
 ### Future Improvements
-SELENIUM INTEGRATION TESTING
-MISSING TERMS TO GET 100% COVERAGE
-Add FUNCTION
+Future improvements I would like to implement into my project would be another form of testing for example selenium integration testing. This would be done using chromedrivers and it would give another way in testing the system. The more tests the better as I would be more confident that I was able to make a functioning application. Another future improvement I would like to make is that I would like to get 100% coverage in my unit testing, this should be attainable due to the missing terms command as I can see which lines are not being covered in my routes page. Also I would fix my add function so it is a completely working application where users can add their exercises to their workouts.
 
 ### Acknowledgements
+Harry Volker for providing the base of the CRUD project and guiding us throughout the project. Nathan Forester for providing guidance throughout the project specifically with Jenkins. Jay Grindrod guiding us throughout the project specifically with database models and logistics. Sam Birchall for guiding us throughout the project.
 
 ### Authors
 Arman Hafiz
