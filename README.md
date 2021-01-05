@@ -95,11 +95,15 @@ To start my unit tests the relevant imports must be made which are the unittest 
 <br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103464362-14090500-4d2b-11eb-8a40-d865d1268046.png)
 <br><br>
-After the set up is completed, now we want to test flask so we can see if the routes are working and sending back the correct status codes. The status code 200 means a successful get request. These tests are to see if when a user navigates to the url_for ('name of the page') that they are sent there and that the app recognises this. The delete get requests have to allow redirects as the delete function we have contains a redirect to the home page of my application which allows the user to delete an endless amount of workouts on the homepage without the page changing or refreshing. 
+After the set up is completed, now we want to test flask so we can see if the routes are working and sending back the correct status codes. The status code 200 means a successful get request. These tests are to see if when a user navigates to the url_for ('name of the page') that they are sent there and that the app recognises this. The delete get requests have to allow redirects as the delete function we have contains a redirect to the home page of my application which allows the user to delete as many workouts on the homepage without the page changing or refreshing. After our routes are tested, I tested the read functionality within flask. This function passes through the home page through a get request and assumes that specific data will be in the response data. I tested this by seeing if "Workout1" was present on the home page and this would show me that the database is working correctly and flask is displaying the correct information.    
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103464375-208d5d80-4d2b-11eb-936b-b0d471b1892a.png)
 <br><br>
+The createworkout functionality of my app was tested by my test acts like a user and would send a post request to the createworkout route which would enter the data that is required by the user in order to create a workout. It would then see if it directs to the home page and seeing whether the data entered in the post request is now included in the response data of the home page. I also tested the remaining functions of the CRUD application which is Update and Delete. The test for the Update function is when the user navigates to the update link and performs an update on their workout, the previous workout title should change to the new workout title entered in the post request, also using the get request to show the new workout title on the home page. The delete route was tested by seeing if the user navigates to the delete route then it should delete the workout with the associated workout title that the user has chosen to delete and that it would be no longer present when redirecting to the home page.
+<br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103591682-bb7f6680-4ee8-11eb-9940-914c70b4d779.png)
-
+<br><br>
+As this screenshot shows, the unit tests have tested majority of my application with 100% of lines within init, forms and models being tested and 71% being tested within the routes. This gave an overall of 84% being tested and I used the missing terms command to see which lines from my routes that are missing which would allow me to see what needs to be tested in order to achieve 100% of lines being tested in my unit tests in the future. 
 
 ### Build
 JENKINS
