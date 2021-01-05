@@ -100,7 +100,7 @@ The createworkout functionality of my app was tested by my test acts like a user
 <br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103591682-bb7f6680-4ee8-11eb-9940-914c70b4d779.png)
 <br><br>
-As this screenshot shows, the unit tests have tested majority of my application with 100% of lines within init, forms and models being tested and 71% being tested within the routes. This gave an overall of 84% being tested and I used the missing terms command to see which lines from my routes that are missing which would allow me to see what needs to be tested in order to achieve 100% of lines being tested in my unit tests in the future. 
+As this screenshot shows, the unit tests have tested majority of my application with 100% of lines within init, forms and models being tested and 71% being tested within the routes. This gave an overall of 84% being tested and I used the missing terms command to see which lines from my routes that are missing which would allow me to see what needs to be tested in order to achieve 100% of lines being tested in my unit tests in the future. I looked into my routes as I would like to attain 100% next time and my overall test results show that what wasn't covered was the part of my database adding the new workout that the user created, also my missing terms show that my create_exercise URL wasn't tested for. I can attain 100% by writing a test for my create_exercise app route the same way I created a unit test for my createworkout app route. Also I would need to make a unit test for the database adding the users new workout.
 
 ### Build
 
@@ -129,7 +129,10 @@ So in these screenshots above, I show my home page and I show a screenshot of th
 The main issue that my application has is that the add function is still faulty. There is a button there for the user to add their chosen exercise however it doesnt redirect itself to the home page in order for the exercise to be shown under the users chosen workout. However my application has its CRUD functionality and working tests.
 
 ### Future Improvements
-Future improvements I would like to implement into my project would be another form of testing for example selenium integration testing. This would be done using chromedrivers and it would give another way in testing the system. The more tests the better as I would be more confident that I was able to make a functioning application. Another future improvement I would like to make is that I would like to get 100% coverage in my unit testing, this should be attainable due to the missing terms command as I can see which lines are not being covered in my routes page. Also I would fix my add function so it is a completely working application where users can add their exercises to their workouts.
+Future improvements I would like to implement into my project would be: 
+* Another form of testing for example selenium integration testing. This would be done using chromedrivers and it would give another way in testing the system. The more tests the better as I would be more confident that I was able to make a functioning application. 
+* I would like to get 100% coverage in my unit testing, this should be attainable due to the missing terms command as I can see which lines are not being covered in my routes page. 
+* I would fix my add function so it is a completely working application where users can add their exercises to their workouts.
 
 ### Acknowledgements
 Harry Volker for providing the base of the CRUD project and guiding us throughout the project. Nathan Forester for providing guidance throughout the project specifically with Jenkins. Jay Grindrod guiding us throughout the project specifically with database models and logistics. Sam Birchall for guiding us throughout the project.
