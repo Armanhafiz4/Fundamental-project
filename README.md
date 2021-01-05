@@ -123,7 +123,7 @@ The CI pipeline for this project revolved around Jenkins and Git. Below are scre
 <br><br>
 ![image](https://user-images.githubusercontent.com/74771197/103638671-22326d80-4f45-11eb-913e-d49e416e06c0.png)
 <br><br>
-So in these screenshots above, I show my home page and I show a screenshot of the page that each button directs to after creating a workout. This whole CRUD application was creating by using python language and flask with importing many flask related modules that can be viewed in my application folder.
+In the screenshots above, I show my home page and I show a screenshot of the page that each button directs to after creating a workout. This whole CRUD application was creating by using python language and flask with importing many flask related modules that can be viewed in my application folder. My create_exercise page shows a box for the user to type in their chosen exercise and their chosen repetitions. My update page shows a box for the user to give a new title for the workout that they want to update and my delete function would get rid of the workout making the application look like the first screenshot again. This was all done by routes, forms, models and htmls. 
 
 ### Known Issues
 The main issue that my application has is that the add function is still faulty. There is a button there for the user to add their chosen exercise however it doesnt redirect itself to the home page in order for the exercise to be shown under the users chosen workout. However my application has its CRUD functionality and working tests.
